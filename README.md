@@ -5,6 +5,8 @@
 
 GUI to compute and explore receptive fields, primarily from calcium imaging recordings.
 
+You can run the GUI, or alternatively, you can investigate the Jupyter notebooks in which we use its functionality.
+
 # To run the GUI
 
 ### RF-Explorer GUI
@@ -54,7 +56,7 @@ If you hold down *Command* on Mac or *Control* on Windows while clicking neurons
 
 You can zoom in and out of the retinotopy to achieve more or less precision for the number of neurons that you select.
 
-# Importing functions into jupyter notebook
+# Importing functions into Jupyter notebook
 
 The /notebooks folder contains sample notebooks demo-ing transformations on neural data.
 
