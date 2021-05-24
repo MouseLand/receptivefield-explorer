@@ -5,17 +5,7 @@
 
 GUI to compute and explore receptive fields, primarily from calcium imaging recordings.
 
-### Import functions into jupyter notebook
-
-Check out the /notebooks folder for some sample notebooks that make use of the RF-explorer functionality. We also have a maximum stimulus notebook, which shows a non-linear, deep learning-based method of generating "receptive fields" for a given neuron.
-
-#### Notebooks:
-
-* **neural encoding model training**
-* **maximally activating stimuli**
-* **receptive fields**
-
-## To run 
+## To run the GUI
 
 ### RF-Explorer GUI
 From outside folder, type in command line:
@@ -63,5 +53,13 @@ Click on a neuron or multiple neurons in the retinotopy to bring up the correspo
 If you hold down *Command* on Mac or *Control* on Windows while clicking neurons on the retinotopy, you can view multiple receptive fields at a time.
 
 You can zoom in and out of the retinotopy to achieve more or less precision for the number of neurons that you select.
+
+### Importing functions into jupyter notebook
+
+The /notebooks folder contains sample notebooks demo-ing transformations on neural data.
+
+* **neural encoding model training** - trains a simple CNN and a multi-layer CNN to predict neural response based on sample data. The trained models can then be used in the maximally activating stimulus notebook.
+* **maximally activating stimuli** - uses gradient ascent on a pre-trained deep neural encoding model to generate "maximally activating stimuli" for a particular neuron.
+* **receptive fields** - calculates receptive fields based off linear methods like linear regression and reduced rank regression.
 
 
