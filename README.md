@@ -13,9 +13,6 @@ From outside folder, type in command line:
 ```
 python3 -m approxineuro.receptive_fields
 ```
-
-## Upload files
-
 ### 1. Click *Select Neural Data File* to upload your neural data. 
 
 The neural data file should be an .npz file in dictionary format with the following keys, containing array data with these shapes:
