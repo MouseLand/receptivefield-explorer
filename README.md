@@ -7,7 +7,7 @@ GUI to compute and explore receptive fields, primarily from calcium imaging reco
 
 You can run the GUI, or alternatively, you can investigate the Jupyter notebooks in which we use its functionality.
 
-# RF-Explorer GUI
+# Receptive Field Explorer GUI
 
 From outside folder, type in command line:
 ```
