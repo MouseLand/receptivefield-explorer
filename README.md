@@ -52,7 +52,7 @@ If you hold down *Command* on Mac or *Control* on Windows while clicking neurons
 
 You can zoom in and out of the retinotopy to achieve more or less precision for the number of neurons that you select.
 
-# Jupyter notebooks
+# Receptive Field Explorer Notebooks
 
 The /notebooks folder contains sample notebooks demo-ing transformations on neural data.
 
