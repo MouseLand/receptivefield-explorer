@@ -5,7 +5,7 @@
 
 GUI to compute and explore receptive fields, primarily from calcium imaging recordings.
 
-## To run the GUI
+# To run the GUI
 
 ### RF-Explorer GUI
 From outside folder, type in command line:
