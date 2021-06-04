@@ -367,9 +367,10 @@ class Ui_MainWindow(object):
 
     def load_preprocessed_rfs(self, file_path):
         """
-        Load preprocessed RF data in form of 
+        Load preprocessed RF data in matrix form of h x w x number of RFs
 
-        file_path (str): 
+        file_path (str): Path to receptive field dictionary. Dictionary has keys B0 containing
+        receptive field matrix and Spred containing predicted spikes.
         """
 
         print("Loading RF data...")
@@ -407,6 +408,16 @@ class Ui_MainWindow(object):
 
 
     def graph_RFs(self, index=None, Spred_run=False, n = 36):
+        """
+        Graph receptive fields.
+        
+        Args:
+            index (list): Order of RFs.
+            Spred_run (bool): Graph RFs based on variance explained of predicted spikes.
+            n (int): Number of RFs to graph.
+        """
+        
+        print("Graphing receptive fields.")
 
         # Clear old graph
         self.displayRFs.clear()
