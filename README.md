@@ -9,9 +9,9 @@ You can run the GUI, or alternatively, you can investigate the Jupyter notebooks
 
 # Receptive Field Explorer GUI
 
-From outside folder, type in command line:
+From outside the receptivefield-explorer folder, type in command line:
 ```
-python3 -m approxineuro.receptive_fields
+python3 -m receptivefield-explorer
 ```
 ### 1. Click *Select Neural Data File* to upload your neural data. 
 
