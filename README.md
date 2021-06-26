@@ -5,14 +5,40 @@
 
 GUI to compute and explore receptive fields, primarily from calcium imaging recordings.
 
-You can run the GUI, or alternatively, you can investigate the Jupyter notebooks in which we use its functionality.
+You can run the GUI, or alternatively, you can investigate the Jupyter notebooks that use its functionality.
+
+The GUI is based in PyQt and runs on Python 3.
+
+# Contributions
+
+This repository was made by Sonia Joseph ([GitHub](https://github.com/soniajoseph), [Twitter](https://twitter.com/soniajoseph_)) at the [Stringer Lab](https://www.janelia.org/lab/stringer-lab) at [Janelia Research Campus](https://www.janelia.org/) in Spring 2021.
+
+Pull requests are welcome for bug fixes and additional features!
 
 # Receptive Field Explorer GUI
 
-From outside the receptivefield-explorer folder, type in command line:
+### 0. Install requirements and run.
+
+This repository runs on Python 3, so make sure that is installed first. Clone repository from GitHub install requirements, and run.
+
 ```
+# Clone git repo
+git clone https://github.com/MouseLand/receptivefield-explorer
+
+# Enter directory
+cd receptivefield-explorer
+
+# Create a virtual environment to contain the requirements
+python3 -m vnev
+
+# Install requirements
+pip3 install -r requirements.txt 
+
+# From outside the directory, run the RF-explorer
+cd .. 
 python3 -m receptivefield-explorer
 ```
+
 ### 1. Click *Select Neural Data File* to upload your neural data. 
 
 The neural data file should be an .npz file in dictionary format with the following keys, containing array data with these shapes:
