@@ -29,7 +29,7 @@ git clone https://github.com/MouseLand/receptivefield-explorer
 cd receptivefield-explorer
 
 # Create a virtual environment to contain the requirements
-python3 -m vnev
+python3 -m venv env
 
 # Install requirements
 pip3 install -r requirements.txt 
